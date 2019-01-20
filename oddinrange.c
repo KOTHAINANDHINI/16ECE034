@@ -6,11 +6,9 @@ void main()
     scanf("%d%d",&a,&b);
     for(i>a;i<b;i++)
     {
-        if(i!=a&&i!=b)
-        {
+        if (i>a&&i<b)
         if(i%2!=0)
-        printf("%d",i);
-        }
+        printf("%d\n",i);
     }
     getch();
 }
