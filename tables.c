@@ -2,9 +2,9 @@
 #include<conio.h>
 void main()
 {
-    int a,i,b,n;
-    scanf("%d%d",&a,&n);
-    for(i=1;i<=n;i++)
+    int a,i,b;
+    scanf("%d",&a);
+    for(i=1;i<=5;i++)
     {
         b=a*i;
     printf("%d\n",b);
