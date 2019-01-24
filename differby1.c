@@ -39,7 +39,7 @@ for(i=0;i<l;i++)
 }
 if(k==1)
 {
-    printf("yes k=%d",k);
+    printf("yes");
 }
 else
 {
