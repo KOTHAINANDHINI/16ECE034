@@ -2,9 +2,9 @@
 #include<conio.h>
 void main()
 {
-    int a,b,c;
-    scanf("%d%d",&a,&b);
-    c=a-b;
+    int N,M,c;
+    scanf("%d%d",&N,&M);
+    c=N-M;
     if(c%2==0)
     printf("even");
     else
