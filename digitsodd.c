@@ -19,7 +19,7 @@ void main()
     {
         if(k[j]%2!=0)
         {
-            printf(" %d",k[j]);
+            printf("%d ",k[j]);
         }
         
     }
