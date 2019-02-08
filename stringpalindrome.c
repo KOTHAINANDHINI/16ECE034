@@ -1,0 +1,41 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    char a[10],b[10];
+    int i,j,k,l=0,n=0;
+    scanf("%s",a);
+    for(i=0;a[i]!='\0';i++)
+    {
+        l++;
+    }
+    j=0;
+    for(i=l-1;a[i]!='\0';i--)
+    {
+        b[j]=a[i];
+        j++;
+    }
+    if(l==j)
+    {
+        for(i=0;i<l;i++)
+        {
+            if(a[i]==b[j])
+            {
+                n++;
+            }
+        }
+    if(n==l)
+    {
+        printf("yes");
+    }
+    else
+    {
+        printf("no");
+    }
+    }
+    else
+    {
+        printf("no");
+    }
+    getch();
+}
