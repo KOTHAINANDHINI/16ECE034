@@ -3,8 +3,8 @@
 int main() {
 char a[100];
 int i,k,l=0,n;
-scanf("%d",&n);
 scanf("%s",a);
+scanf("%d",&n);
 for(i=0;a[i]!='\0';i++)
 {
     l++;
