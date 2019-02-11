@@ -3,7 +3,9 @@
 void main()
 {
     float a;
+    int n;
     scanf("%f",&a);
-    printf("%.f",a+1);
+    n=a+1;
+    printf("%d",n);
     getch();
 }
